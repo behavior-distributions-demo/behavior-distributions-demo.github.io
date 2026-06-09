@@ -718,8 +718,8 @@
             <div class="control-group prediction-toggle" id="predictionToggleGroup">
                 <label>Probe Predictions</label>
                 <div class="toggle-group">
-                    <button id="showPredictionsBtn">Show Predictions</button>
                     <button id="hidePredictionsBtn" class="active">Hide Predictions</button>
+                    <button id="showPredictionsBtn">Show Predictions</button>
                 </div>
             </div>
 
@@ -1157,9 +1157,9 @@
             // Show/hide prediction toggle
             if (hasPredictions) {
                 predictionToggleGroup.classList.add('visible');
-                showPredictions = true;
-                showPredictionsBtn.classList.add('active');
-                hidePredictionsBtn.classList.remove('active');
+                showPredictions = false;
+                hidePredictionsBtn.classList.add('active');
+                showPredictionsBtn.classList.remove('active');
             } else {
                 predictionToggleGroup.classList.remove('visible');
                 showPredictions = false;
