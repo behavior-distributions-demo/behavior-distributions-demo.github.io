@@ -45,6 +45,72 @@
   ],
   "pairs": [
     {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "elephant_aita",
+      "dataset_label": "Elephant (AITA)",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/elephant_aita.json",
+      "num_examples": 15,
+      "mean_mae": 0.2061
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "myopic_reward",
+      "dataset_label": "Myopic reward",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/myopic_reward.json",
+      "num_examples": 15,
+      "mean_mae": 0.1472
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "sep",
+      "dataset_label": "SEP",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/sep.json",
+      "num_examples": 15,
+      "mean_mae": 0.204
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "sorrybench",
+      "dataset_label": "SorryBench",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/sorrybench.json",
+      "num_examples": 15,
+      "mean_mae": 0.0824
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "survival_instinct",
+      "dataset_label": "Survival instinct",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/survival_instinct.json",
+      "num_examples": 15,
+      "mean_mae": 0.1862
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-8B",
+      "model_label": "DeepSeek-R1-Distill-Llama-8B",
+      "dataset": "wealth_seeking",
+      "dataset_label": "Wealth seeking",
+      "layer": 25,
+      "probe": "probabilistic_mlp_1024",
+      "file": "data/DeepSeek-R1-Distill-Llama-8B/wealth_seeking.json",
+      "num_examples": 15,
+      "mean_mae": 0.1993
+    },
+    {
       "model": "Qwen3-14B",
       "model_label": "Qwen3-14B",
       "dataset": "elephant_aita",
@@ -241,72 +307,6 @@
       "file": "data/gpt-oss-20b/wealth_seeking.json",
       "num_examples": 15,
       "mean_mae": 0.2104
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "elephant_aita",
-      "dataset_label": "Elephant (AITA)",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/elephant_aita.json",
-      "num_examples": 15,
-      "mean_mae": 0.2061
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "myopic_reward",
-      "dataset_label": "Myopic reward",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/myopic_reward.json",
-      "num_examples": 15,
-      "mean_mae": 0.1472
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "sep",
-      "dataset_label": "SEP",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/sep.json",
-      "num_examples": 15,
-      "mean_mae": 0.204
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "sorrybench",
-      "dataset_label": "SorryBench",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/sorrybench.json",
-      "num_examples": 15,
-      "mean_mae": 0.0824
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "survival_instinct",
-      "dataset_label": "Survival instinct",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/survival_instinct.json",
-      "num_examples": 15,
-      "mean_mae": 0.1862
-    },
-    {
-      "model": "DeepSeek-R1-Distill-Llama-8B",
-      "model_label": "DeepSeek-R1-Distill-Llama-8B",
-      "dataset": "wealth_seeking",
-      "dataset_label": "Wealth seeking",
-      "layer": 25,
-      "probe": "probabilistic_mlp_1024",
-      "file": "data/DeepSeek-R1-Distill-Llama-8B/wealth_seeking.json",
-      "num_examples": 15,
-      "mean_mae": 0.1993
     }
   ],
   "curation": "diverse"
