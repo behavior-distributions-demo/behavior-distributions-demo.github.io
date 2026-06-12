@@ -1,6 +1,10 @@
 {
   "models": [
     {
+      "id": "DeepSeek-R1-Distill-Llama-8B",
+      "label": "DeepSeek-R1-Distill-Llama-8B"
+    },
+    {
       "id": "Qwen3-14B",
       "label": "Qwen3-14B"
     },
@@ -11,10 +15,6 @@
     {
       "id": "gpt-oss-20b",
       "label": "gpt-oss-20b"
-    },
-    {
-      "id": "DeepSeek-R1-Distill-Llama-8B",
-      "label": "DeepSeek-R1-Distill-Llama-8B"
     }
   ],
   "datasets": [
