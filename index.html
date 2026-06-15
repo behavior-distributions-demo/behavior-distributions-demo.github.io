@@ -127,6 +127,23 @@
             white-space: nowrap;
         }
 
+        .dataset-link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .dataset-link:hover {
+            text-decoration: underline;
+        }
+
+        .dataset-link code {
+            font-size: 0.8rem;
+        }
+
         select {
             padding: 10px 16px;
             background: var(--bg-secondary);
@@ -732,6 +749,7 @@
                     </div>
                     <span class="load-hint" id="loadHint"></span>
                 </div>
+                <a class="dataset-link" href="https://huggingface.co/datasets/future-probes/probe_predictions" target="_blank" rel="noopener">⬇ Download <code>outputs.json</code> files from the future-probes/probe_predictions dataset on 🤗 Hugging Face</a>
             </div>
         </div>
 
